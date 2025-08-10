@@ -19,6 +19,7 @@ impl_num = ["num"]
 diff_derive = { path = "../diff-derive" }
 serde = { version = "1", features = ["derive"] }
 num = { version = "0.4.0", optional = true }
+fraction = { git = "https://github.com/dnsl48/fraction", rev = "17649f7ff9f0509cfd52fe1ecaa4d97b1cddf851" }
 
 [dev-dependencies]
 quickcheck = "0.8"
